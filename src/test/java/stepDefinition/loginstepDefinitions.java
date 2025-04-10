@@ -24,7 +24,7 @@ public class loginstepDefinitions {
     }
 
     @And("username gir")
-    public void username_gir(){
+    public void username_git(){
         loginpage = new Loginpage(driver);
         loginpage.USERNAME("student");
     }
